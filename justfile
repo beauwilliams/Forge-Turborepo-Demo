@@ -50,6 +50,8 @@ install *PACKAGES:
 install-dev *PACKAGES:
     @#Recipe param as list of packages
     @ni -D {{PACKAGES}}
+build:
+    @npm run build
 FORGE-TURBO-APP := "apps/forge"
 forge-register:
     @cd ./{{FORGE-TURBO-APP}} && forge register && cd ../..

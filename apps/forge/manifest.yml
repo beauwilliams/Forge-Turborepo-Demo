@@ -34,4 +34,4 @@ permissions:
   scopes:
     - storage:app
 app:
-  id: ari:cloud:ecosystem::app/a76f43da-3750-46c6-8962-2e6bc73f2b27
+  id: ari:cloud:ecosystem::app/617b04d9-4b78-40bb-b91a-1cb8b22d5248
