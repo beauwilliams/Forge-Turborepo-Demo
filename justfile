@@ -50,6 +50,14 @@ install *PACKAGES:
 install-dev *PACKAGES:
     @#Recipe param as list of packages
     @ni -D {{PACKAGES}}
+FORGE-TURBO-APP := "apps/forge"
+forge-register:
+    @cd ./{{FORGE-TURBO-APP}} && forge register && cd ../..
+forge-deploy:
+    @cd ./{{FORGE-TURBO-APP}} && forge deploy && cd ../..
+forge-install:
+    @cd ./{{FORGE-TURBO-APP}} && forge install && cd ../..
+
 
 
 # Hidden Recipes
