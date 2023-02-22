@@ -10,7 +10,7 @@ set dotenv-load := true
 # set positional-arguments := true
 # foo:
 #   echo justinit
-#   echo 
+#   echo
 
 # Colours
 
@@ -42,6 +42,8 @@ display:
 whoami $name:
     @#Recipe param as env variable with $ sign
     echo $name
+init:
+    @ni
 install *PACKAGES:
     @#Recipe param as list of packages
     @ni {{PACKAGES}}
