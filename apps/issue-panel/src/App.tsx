@@ -4,7 +4,7 @@ import { Button } from "ui";
 function App() {
   return (
     <div className="App">
-      <p>Hello, issue panel</p>
+      <p>Hello forge on turborepo!</p>
       <Button/>
     </div>
   );
